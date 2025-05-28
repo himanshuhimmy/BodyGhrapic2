@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+:root {
+  --my-primary: black;
+  --my-Yellow: rgb(255, 178, 15);
+  --my-white: whitesmoke;
+  --my-secondry: #161616;
+  /* --my-nav: #161616; */
+  --my-Button: #d2a200;
+  --my-overlay: #000000;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  max-width: 1140px;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* font colour */
+.yellowtext {
+  color: var(--my-Yellow);
+}
+.whitetext {
+  color: var(--my-white);
+}
+
+.hover\:yellowtext:hover {
+  color: var(--my-Yellow);
+}
+
+.text-glow {
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+/* background colour */
+.Black {
+  background-color: var(--my-primary);
+}
+.Black2 {
+  background-color: var(--my-secondry);
+}
+.Yellow {
+  background-color: var(--my-Button);
+}
+
+/* navigation */
+.navgation {
+  color: var(--my-Yellow);
+}
+/* testominal */
+.testblack {
+  background-color: "#222222";
+}
+
+/* overlay */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--my-overlay);
+  opacity: 0.8;
+}
+
+.overLayBg {
+  background-color: var(--my-overlay);
+}
