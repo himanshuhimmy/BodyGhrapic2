@@ -18,7 +18,7 @@ const AftercareRoot = () => {
           className=" bg-cover Black py-10"
         >
           <div className="container text-center">
-            <h1 className="text-5xl font-light mb-5 yellowtext">After Care</h1>
+            <h1 className="text-5xl font-bold mb-5 yellowtext">After Care</h1>
             {care.map((el, id) => (
               <div key={id} className="flex py-4 w-full">
                 {id % 2 === 0 ? (

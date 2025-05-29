@@ -5,6 +5,7 @@ import MeetArtist from "./MeetArtist";
 import RecentProjects from "./RecentProjects";
 import Testimonal from "./Testimonal";
 import Contactus from "../ContactUs/Contactus";
+import Cafename from "../Assets/Logos/name.png";
 
 const HomeRoot = () => {
   return (
@@ -13,6 +14,11 @@ const HomeRoot = () => {
         <img
           className="w-screen h-[85vh]"
           src={studioPhoto}
+          alt="Tattoo studio interior"
+        />
+        <img
+          className="absolute top-[30%] left-[25%] z-[1] w-[50%]"
+          src={Cafename}
           alt="Tattoo studio interior"
         />
       </div>
