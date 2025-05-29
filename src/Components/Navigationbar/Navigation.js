@@ -19,7 +19,7 @@ const Navigation = () => {
     : "transition-all duration-300";
 
   return (
-    <div className={`navgation fixed font-bold z-[1] w-full py-5 ${NavClass} `}>
+    <div className={`navgation fixed font-bold z-[2] w-full py-5 ${NavClass} `}>
       <div className="container flex ">
         <div className="w-[40%] flex p-2 justify-around">
           <NavLink to={"/home"}>HOME</NavLink>
